@@ -1,0 +1,22 @@
+{
+  "articles/elevation_profiles.html": {
+    "href": "articles/elevation_profiles.html",
+    "title": "Elevation profiles",
+    "keywords": "Elevation profiles"
+  },
+  "api/index.html": {
+    "href": "api/index.html",
+    "title": "This is the API.",
+    "keywords": "This is the API ."
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "Welcome to DEM.Net !",
+    "keywords": "Welcome to DEM.Net ! This is the official documentation for the DEM-net project. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+  },
+  "articles/intro.html": {
+    "href": "articles/intro.html",
+    "title": "Add your introductions here!",
+    "keywords": "Add your introductions here!"
+  }
+}

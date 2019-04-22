@@ -1,2 +1,9 @@
 - name: Introduction
   href: intro.md
+  items:
+   - name: History of the project
+     href: elevation_profiles.md
+   - name: Elevation Profiles
+     href: elevation_profiles.md
+- name: Introduction
+  href: intro.md

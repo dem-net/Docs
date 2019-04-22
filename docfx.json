@@ -20,7 +20,8 @@
       {
         "files": [
           "api/**.yml",
-          "api/index.md"
+          "api/index.md",
+          "fusion/**"
         ]
       },
       {
@@ -50,6 +51,9 @@
         ]
       }
     ],
+    "globalMetadata": {
+      "_enableSearch": true
+    },
     "dest": "docs",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],

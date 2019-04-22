@@ -4,12 +4,33 @@
   "xrefmap": "xrefmap.yml",
   "files": [
     {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "4UR1pqrmDaPuru/D2lxJJg=="
+          "hash": "VxAZdu6n1319DpUdnqR1Bw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/elevation_profiles.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/elevation_profiles.html",
+          "hash": "3zngVQ2+ff+fyQ1nlMk67w=="
         }
       },
       "is_incremental": false,
@@ -21,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "zWpKADgedKhPMRDWRrSCtg=="
+          "hash": "np+X2FrPJ/+GszUPLQtx6g=="
         }
       },
       "is_incremental": false,
@@ -29,11 +50,11 @@
     },
     {
       "type": "Toc",
-      "source_relative_path": "articles/toc.yml",
+      "source_relative_path": "fusion/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "articles/toc.html",
-          "hash": "t7iiFrmuYmrKWisdq+lN6Q=="
+          "relative_path": "fusion/toc.html",
+          "hash": "qqpM6cR0qbTKGtSJF9R8JQ=="
         }
       },
       "is_incremental": false,
@@ -45,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "E8RA92p8bVQZg1YZEqq7Lg=="
+          "hash": "XHkYzKVFzEFqo5HKOUUj7A=="
         }
       },
       "is_incremental": false,
@@ -57,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "k7V/0exT3U0e8ltNoAiWPA=="
+          "hash": "MDpnb9Yp+AqctbPgZcxbFA=="
         }
       },
       "is_incremental": false,
@@ -75,17 +96,17 @@
         "full_build_reason_code": "ForceRebuild"
       },
       "processors": {
-        "ConceptualDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 3,
-          "skipped_file_count": 0
-        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 4,
           "skipped_file_count": 0
         }
       }
@@ -93,7 +114,7 @@
     {
       "status": {
         "can_incremental": false,
-        "details": "Cannot support incremental post processing, the reason is: it's disabled.",
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
         "incrementalPhase": "postProcessing",
         "total_file_count": 0,
         "skipped_file_count": 0
