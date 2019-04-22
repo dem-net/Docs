@@ -1,0 +1,1631 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Repos/DEM.Net Organization/Docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.BoundingBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.BoundingBox.html",
+          "hash": "czEen5mZ6t6mhuuax+Fn0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.DEMDataSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.DEMDataSet.html",
+          "hash": "CBH8RyNjuFVpl/gMaB0wXg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.DEMFileFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.DEMFileFormat.html",
+          "hash": "xPK+GTGBEwqai0ym/Urg6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.DemFileReport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.DemFileReport.html",
+          "hash": "aqt3tXpaNMuChw8WoBXPyg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.DiagnosticUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.DiagnosticUtils.html",
+          "hash": "S/ris500S2ACn8wTujZo9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.DisposableValueDictionary-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.DisposableValueDictionary-2.html",
+          "hash": "79frCxrxsq8ypPmGpVpxzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.DouglasPeucker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.DouglasPeucker.html",
+          "hash": "wGr0FE6F4zP9OC5KWj9NTQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.ElevationMetrics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.ElevationMetrics.html",
+          "hash": "mXy/fejKecpRpAPvfBGP/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.ElevationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.ElevationService.html",
+          "hash": "TdTObDo7rPpa3DqbwwLlZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.EnumerableWithCount-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.EnumerableWithCount-1.html",
+          "hash": "ndKhjaQ9TMVXm9Vd6u+9qw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.ExceptionHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.ExceptionHelper.html",
+          "hash": "UH9OM/ep6qaq5tt1vDO1cQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.FileMetadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.FileMetadata.html",
+          "hash": "RIM023wqA6BlNaGHe7mqSg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.FileMetadataMigrations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.FileMetadataMigrations.html",
+          "hash": "9cq4EQlHM8oaPzhFPX6NEQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.GDALSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.GDALSource.html",
+          "hash": "6j/C/GCeSEje66Aj62ejBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.GDALVRTFileService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.GDALVRTFileService.html",
+          "hash": "EyfGhR66OM1NID/DvKcDbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.GeoPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.GeoPoint.html",
+          "hash": "301vjZVOu60+fDYHWYjLcw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.GeoSegment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.GeoSegment.html",
+          "hash": "O2l3XW/tuJrVa7L5tKpnPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.GeoTiff.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.GeoTiff.html",
+          "hash": "PuT7FHol6KYng7/YB56h3Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.GeometryService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.GeometryService.html",
+          "hash": "1/QlJu5v3ArKsbWpYzjQTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Gpx.GpxAddress.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Gpx.GpxAddress.html",
+          "hash": "fetX+UtoCGU+zpF65/xrYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Gpx.GpxAttributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Gpx.GpxAttributes.html",
+          "hash": "ctHSOMH01V1G1dLQJ8JPRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Gpx.GpxBounds.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Gpx.GpxBounds.html",
+          "hash": "c1artZhpLXhFQ20cUhKiWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Gpx.GpxColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Gpx.GpxColor.html",
+          "hash": "xkBkf8Yv1xhEuQShsMkndw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Gpx.GpxCopyright.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Gpx.GpxCopyright.html",
+          "hash": "6lO3mEDT08IZIiVRDa161A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Gpx.GpxEmail.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Gpx.GpxEmail.html",
+          "hash": "87BuDbtaRJQ30H/N9xGHlQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Gpx.GpxLink.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Gpx.GpxLink.html",
+          "hash": "pjWItlFjTwPD3lyNrZBmDA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Gpx.GpxMetadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Gpx.GpxMetadata.html",
+          "hash": "CMH1XAeDN/zIdTLbx1b/Mg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Gpx.GpxNamespaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Gpx.GpxNamespaces.html",
+          "hash": "sAvBO60IP47+//VlCU4y7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Gpx.GpxObjectType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Gpx.GpxObjectType.html",
+          "hash": "H25cM2eJC4li3NGM6P+nxA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Gpx.GpxPerson.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Gpx.GpxPerson.html",
+          "hash": "sLEaAdUkrJoC1LzeSCeRRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Gpx.GpxPhone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Gpx.GpxPhone.html",
+          "hash": "DBn+mUe1CEDTEaL9lxNakg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Gpx.GpxPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Gpx.GpxPoint.html",
+          "hash": "dwv0NLT0+VJiNGssUvGhLw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Gpx.GpxPointCollection-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Gpx.GpxPointCollection-1.html",
+          "hash": "hPWvCWehzHx8ybfxnGyHPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Gpx.GpxProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Gpx.GpxProperties.html",
+          "hash": "FlBvHp9/Qbg1bsfU9omtpw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Gpx.GpxReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Gpx.GpxReader.html",
+          "hash": "MU4M+YmnGMPGVrHX8yNhPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Gpx.GpxRoute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Gpx.GpxRoute.html",
+          "hash": "ti3UVolIDntlHIeK+T+N5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Gpx.GpxRoutePoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Gpx.GpxRoutePoint.html",
+          "hash": "CXwtGwe7VEl/h6TIHGn73A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Gpx.GpxTrack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Gpx.GpxTrack.html",
+          "hash": "geP4PmM/eFg8uBH+PBkcWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Gpx.GpxTrackOrRoute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Gpx.GpxTrackOrRoute.html",
+          "hash": "VXA8IpxIyf/eAfQA+bCzmQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Gpx.GpxTrackPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Gpx.GpxTrackPoint.html",
+          "hash": "SMfmd2561Bn+HUZb/blrbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Gpx.GpxTrackSegment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Gpx.GpxTrackSegment.html",
+          "hash": "sM78qCO7mbcuaXw0MgTAww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Gpx.GpxWayPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Gpx.GpxWayPoint.html",
+          "hash": "fb1I56ylqO/0M/CFdPD4NA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Gpx.GpxWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Gpx.GpxWriter.html",
+          "hash": "CAMIku0mLT2ISNuKFg0pXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Gpx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Gpx.html",
+          "hash": "pl9zSdpDz6TcmA9x9F6lKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.HGTFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.HGTFile.html",
+          "hash": "n1cDc9o9olgRcE2ORC+AWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.HeightMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.HeightMap.html",
+          "hash": "cBwZl+sRx1rTrmIS2e/Pyw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.HeightMapExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.HeightMapExtensions.html",
+          "hash": "CeOf2S4X/iF8uOe7PmMsTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.IElevationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.IElevationService.html",
+          "hash": "90KNzwdxvA4TydAfiAnnkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.IEnumerableWithCount-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.IEnumerableWithCount-1.html",
+          "hash": "3GwsdUx1kGI/5JXzm84tVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.IInterpolator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.IInterpolator.html",
+          "hash": "DtUVwP4dADNFnZ/EowAT0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.IRasterFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.IRasterFile.html",
+          "hash": "uZuGjuHRQPP/guo7B9rnnw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.IRasterService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.IRasterService.html",
+          "hash": "nBpgRYoAr7DD8YuuiN/I8w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Imagery.Attribution.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Imagery.Attribution.html",
+          "hash": "IVjG81vb/8dOtDIbDp6DXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Imagery.DirectBitmap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Imagery.DirectBitmap.html",
+          "hash": "TvbpmDA+wHL4nVxztKwBDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Imagery.ImageryProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Imagery.ImageryProvider.html",
+          "hash": "nymxFobSyix4lL2cCKUEjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Imagery.ImageryService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Imagery.ImageryService.html",
+          "hash": "m6iT68X6lqGTtc793tN87g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Imagery.LatLong.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Imagery.LatLong.html",
+          "hash": "btzkG8ubrJfI03HlQTaTMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Imagery.MapTile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Imagery.MapTile.html",
+          "hash": "S8X+LC4b0B5WzVcWcDcMtw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Imagery.MapTileInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Imagery.MapTileInfo.html",
+          "hash": "R5YnknHMJFRYSVmsRePJDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Imagery.PBRTexture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Imagery.PBRTexture.html",
+          "hash": "V5ceQ0WRyaGo1dWcH+5Ckw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Imagery.PointInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Imagery.PointInt.html",
+          "hash": "54ZquB6tb00fH0h06ULqdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Imagery.TextureImageFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Imagery.TextureImageFormat.html",
+          "hash": "x4z30YsvpqdZhuxC2/XrOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Imagery.TextureInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Imagery.TextureInfo.html",
+          "hash": "GIA9sNFajPDgsv6VO67YBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Imagery.TileRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Imagery.TileRange.html",
+          "hash": "qLEZEROdlH+kFfGPtGJ3FQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Imagery.TileUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Imagery.TileUtils.html",
+          "hash": "Q88brNzY8xfbF0OWTz3JGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Imagery.UrlModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Imagery.UrlModel.html",
+          "hash": "9Z6SmRDwLBJsdDxhBbqduw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Imagery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Imagery.html",
+          "hash": "Lz2Xz0Oh0oBVeZ/bXVobJg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Interpolation.BilinearInterpolator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Interpolation.BilinearInterpolator.html",
+          "hash": "xczMFz+YPJj6Vgpp+wFtTQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Interpolation.HyperbolicInterpolator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Interpolation.HyperbolicInterpolator.html",
+          "hash": "BzcErXaHB3oumIuPAz/Zbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Interpolation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Interpolation.html",
+          "hash": "9MoUGEhGn46891gsbgj0Tw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.InterpolationMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.InterpolationMode.html",
+          "hash": "pJ3IM8n0l3i8haqiNVt6PA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Logger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Logger.html",
+          "hash": "RqYpmQInZaESa3xjnJC6ww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.MathHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.MathHelper.html",
+          "hash": "YIDwOrH4ycLd3UohqviTWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.RasterFileDictionary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.RasterFileDictionary.html",
+          "hash": "4YGlwtkXQLNT1xO3L+cypg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.RasterSampleFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.RasterSampleFormat.html",
+          "hash": "3jFvpdY+eycC3duSWfok/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.RasterService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.RasterService.html",
+          "hash": "LQEyPqu5j4gmLkdrL9nACA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Reprojection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Reprojection.html",
+          "hash": "hjZtA/xdkIoYio+m6XZ82A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Services.Lab.BeanArc_internal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Services.Lab.BeanArc_internal.html",
+          "hash": "6xs1+DJpb3UBqwWe4kvRFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Services.Lab.BeanFacette_internal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Services.Lab.BeanFacette_internal.html",
+          "hash": "FIp3PaNNbL69x0dQBwNGyA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Services.Lab.BeanParametresChoixDuPointCentral.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Services.Lab.BeanParametresChoixDuPointCentral.html",
+          "hash": "cHK4ISBmIlIaE4XevjMgEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Services.Lab.BeanParametresDuTin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Services.Lab.BeanParametresDuTin.html",
+          "hash": "P6gs6yTyeoensz+ge+QLzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Services.Lab.BeanPoint_internal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Services.Lab.BeanPoint_internal.html",
+          "hash": "aTN33u8Y40JY4fHGcUXsYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Services.Lab.BeanRelationPointToFacette.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Services.Lab.BeanRelationPointToFacette.html",
+          "hash": "QQWjyjobAKEuXIjKfXaTTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Services.Lab.BeanResultatConversions_internal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Services.Lab.BeanResultatConversions_internal.html",
+          "hash": "kjvBxrtGFO55wLCpSGxJdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Services.Lab.BeanTopologieFacettes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Services.Lab.BeanTopologieFacettes.html",
+          "hash": "GybUleoblGAoqcGWaa6NTQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Services.Lab.CalculServices_Low.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Services.Lab.CalculServices_Low.html",
+          "hash": "TNm6IV296nxQ1KoKaYmxjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Services.Lab.CalculServices_Medium.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Services.Lab.CalculServices_Medium.html",
+          "hash": "DEL+TDodZa4ZAHKniSd0HQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Services.Lab.FLabServices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Services.Lab.FLabServices.html",
+          "hash": "0wfeyv4sjd91hwPz8fCsGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Services.Lab.FServices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Services.Lab.FServices.html",
+          "hash": "xRgEU58SZtB9+MiEwvlZNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Services.Lab.GeomorphoServices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Services.Lab.GeomorphoServices.html",
+          "hash": "d666puPNuEwNWjVRoBr/gw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Services.Lab.ICalculServicesLow_testsDivers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Services.Lab.ICalculServicesLow_testsDivers.html",
+          "hash": "WNEg1EdPiRIBfiN4vCPiVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Services.Lab.ICalculServicesMedium_testDivers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Services.Lab.ICalculServicesMedium_testDivers.html",
+          "hash": "ii3AYz7EmsZCGQTnPZtQhA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Services.Lab.ICalculServices_Low.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Services.Lab.ICalculServices_Low.html",
+          "hash": "XPFBp3aIpUtIYqU2ZkOGBg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Services.Lab.ICalculServices_Medium.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Services.Lab.ICalculServices_Medium.html",
+          "hash": "Pp4BDXrdFWkPkqKDM/5q1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Services.Lab.IGeomorphoServices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Services.Lab.IGeomorphoServices.html",
+          "hash": "IOUOo8gcIHbIUJsa9yNqpA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Services.Lab.IUtilitairesServices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Services.Lab.IUtilitairesServices.html",
+          "hash": "KjC89nGfVSkLuHkZtcGJoA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Services.Lab.UtilitairesServices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Services.Lab.UtilitairesServices.html",
+          "hash": "nPJMDhoxvCsXiA/jO1In+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Services.Lab.enumMethodeChoixDuPointCentral.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Services.Lab.enumMethodeChoixDuPointCentral.html",
+          "hash": "9HtALGtvwfkhjkoigdhu3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Services.Lab.enumModeCalculZ.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Services.Lab.enumModeCalculZ.html",
+          "hash": "xwDn6CTMxSsxumo5GJy0kg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Services.Lab.enumModeDelimitationFrontiere.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Services.Lab.enumModeDelimitationFrontiere.html",
+          "hash": "vWRfOMo4zUBECLoIm5UrfA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Services.Lab.enumOrdonnancementPoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Services.Lab.enumOrdonnancementPoints.html",
+          "hash": "SwdEIgaMkSihaI5vI68OmQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Services.Lab.enumSensPenteArc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Services.Lab.enumSensPenteArc.html",
+          "hash": "qIUfoeRoYV1YbAEzG9wLew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Services.Lab.enumStatutArc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Services.Lab.enumStatutArc.html",
+          "hash": "ZwqXKfjRvxoMBQ0MypKSTA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Services.Lab.enum_qualificationHydro_pointDeFacette.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Services.Lab.enum_qualificationHydro_pointDeFacette.html",
+          "hash": "sY2RspuGEumauzIdAg6/Gg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Services.Lab.enum_qualificationMorpho_arc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Services.Lab.enum_qualificationMorpho_arc.html",
+          "hash": "5w3B/pIlPxAzNAlonr6s7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Services.Lab.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Services.Lab.html",
+          "hash": "43sKFPgK5w+h2IIRWmpaUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Services.Mesh.MeshService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Services.Mesh.MeshService.html",
+          "hash": "9AsoyhL02LshWMQTiufSMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Services.Mesh.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Services.Mesh.html",
+          "hash": "KIy3pS9iaQa8bJxAPitF7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Services.VisualisationServices.FVisualisationServices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Services.VisualisationServices.FVisualisationServices.html",
+          "hash": "JGYbT7FCRY0wdJlOrxn5uw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Services.VisualisationServices.IStatsPopulationServices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Services.VisualisationServices.IStatsPopulationServices.html",
+          "hash": "8WysAQJx4ODDAyBSJUBT+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Services.VisualisationServices.IVisualisationSpatialTraceServices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Services.VisualisationServices.IVisualisationSpatialTraceServices.html",
+          "hash": "1ConQppTH8Eu0UXmi3bhwg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Services.VisualisationServices.StatsPopulationServices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Services.VisualisationServices.StatsPopulationServices.html",
+          "hash": "ypchbwiSYAWnuFQSrZ6bog=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Services.VisualisationServices.VisualisationSpatialTraceServices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Services.VisualisationServices.VisualisationSpatialTraceServices.html",
+          "hash": "w7RXHf3Xv4TwIuKJKGvoKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Services.VisualisationServices.enumModeSeuillage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Services.VisualisationServices.enumModeSeuillage.html",
+          "hash": "5TQGvIRIRjJeuZ4EKoTjQg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Services.VisualisationServices.enumProgressionCouleurs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Services.VisualisationServices.enumProgressionCouleurs.html",
+          "hash": "TN2otmgTOSwhbDyLkn9pGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Services.VisualisationServices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Services.VisualisationServices.html",
+          "hash": "8GNyKfGy2rGZhy1sz9GLtQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.Smoothing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.Smoothing.html",
+          "hash": "82q4nmbmLTy1p+lQ68GSzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.SmoothingMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.SmoothingMode.html",
+          "hash": "BQydvZuxdcJI5HwYy6JVuQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.UrlHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.UrlHelper.html",
+          "hash": "RMwTff2o+dntIkT2yI5b2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.VectorsExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.VectorsExtensions.html",
+          "hash": "91ALms1dcTL9Tj+89T3Tig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.Lib.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.Lib.html",
+          "hash": "EhkwV9UmUdV5TixKybCkLQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.glTF.IglTFService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.glTF.IglTFService.html",
+          "hash": "OfBD8jcdWnJmvjbnEpY8eg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.glTF.glTFService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.glTF.glTFService.html",
+          "hash": "G/JOr0+2hL6GbHF4B45uGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DEM.Net.glTF.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DEM.Net.glTF.html",
+          "hash": "UXwTIFyWc663pCjjNzlD2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SampleApp.GpxImport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SampleApp.GpxImport.html",
+          "hash": "N0TwQxAgveJJP7T1mm9gjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SampleApp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SampleApp.html",
+          "hash": "/An3vrQDoKo5VQFya2mifQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "oLuYLaWZX/Akn8Z1RpxRrA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "xMu4a70b+dlpVzE2oY1Ogg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "t7iiFrmuYmrKWisdq+lN6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "WAEDyt32KMvRuLaGNKTXHQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "1hk4BHn3GeZYhVzhtX0B0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Disable incremental build by force rebuild option.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ForceRebuild"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 2,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 126,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: it's disabled.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

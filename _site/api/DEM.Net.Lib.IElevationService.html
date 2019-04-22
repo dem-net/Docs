@@ -1,0 +1,1261 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IElevationService
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IElevationService
+   ">
+    <meta name="generator" content="docfx 2.41.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DEM.Net.Lib.IElevationService">
+  
+  
+  <h1 id="DEM_Net_Lib_IElevationService" data-uid="DEM.Net.Lib.IElevationService" class="text-break">Interface IElevationService
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DEM.Net.Lib.html">DEM.Net.Lib</a></h6>
+  <h6><strong>Assembly</strong>: DEM.Net.Lib.dll</h6>
+  <h5 id="DEM_Net_Lib_IElevationService_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IElevationService</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/xfischer/DEM.Net/new/dev/apiSpec/new?filename=DEM_Net_Lib_IElevationService_DownloadMissingFiles_DEM_Net_Lib_DEMDataSet_DEM_Net_Lib_BoundingBox_.md&amp;value=---%0Auid%3A%20DEM.Net.Lib.IElevationService.DownloadMissingFiles(DEM.Net.Lib.DEMDataSet%2CDEM.Net.Lib.BoundingBox)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/xfischer/DEM.Net/blob/dev/DEM.Net.Lib/Services/Elevation/IElevationService.cs/#L16">View Source</a>
+  </span>
+  <a id="DEM_Net_Lib_IElevationService_DownloadMissingFiles_" data-uid="DEM.Net.Lib.IElevationService.DownloadMissingFiles*"></a>
+  <h4 id="DEM_Net_Lib_IElevationService_DownloadMissingFiles_DEM_Net_Lib_DEMDataSet_DEM_Net_Lib_BoundingBox_" data-uid="DEM.Net.Lib.IElevationService.DownloadMissingFiles(DEM.Net.Lib.DEMDataSet,DEM.Net.Lib.BoundingBox)">DownloadMissingFiles(DEMDataSet, BoundingBox)</h4>
+  <div class="markdown level1 summary"><p>Given a bounding box and a dataset, downloads all covered tiles
+using VRT file specified in dataset</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void DownloadMissingFiles(DEMDataSet dataSet, BoundingBox bbox = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DEM.Net.Lib.DEMDataSet.html">DEMDataSet</a></td>
+        <td><span class="parametername">dataSet</span></td>
+        <td><p>DEMDataSet used</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DEM.Net.Lib.BoundingBox.html">BoundingBox</a></td>
+        <td><span class="parametername">bbox</span></td>
+        <td><p>Bounding box, <a class="xref" href="DEM.Net.Lib.GeometryService.html#DEM_Net_Lib_GeometryService_GetBoundingBox_System_String_">GetBoundingBox(String)</a></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DEM_Net_Lib_IElevationService_DownloadMissingFiles_DEM_Net_Lib_DEMDataSet_DEM_Net_Lib_BoundingBox__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>VRT file is downloaded once. It will be cached in local for 30 days.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/xfischer/DEM.Net/new/dev/apiSpec/new?filename=DEM_Net_Lib_IElevationService_DownloadMissingFiles_DEM_Net_Lib_DEMDataSet_System_Double_System_Double_.md&amp;value=---%0Auid%3A%20DEM.Net.Lib.IElevationService.DownloadMissingFiles(DEM.Net.Lib.DEMDataSet%2CSystem.Double%2CSystem.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/xfischer/DEM.Net/blob/dev/DEM.Net.Lib/Services/Elevation/IElevationService.cs/#L27">View Source</a>
+  </span>
+  <a id="DEM_Net_Lib_IElevationService_DownloadMissingFiles_" data-uid="DEM.Net.Lib.IElevationService.DownloadMissingFiles*"></a>
+  <h4 id="DEM_Net_Lib_IElevationService_DownloadMissingFiles_DEM_Net_Lib_DEMDataSet_System_Double_System_Double_" data-uid="DEM.Net.Lib.IElevationService.DownloadMissingFiles(DEM.Net.Lib.DEMDataSet,System.Double,System.Double)">DownloadMissingFiles(DEMDataSet, Double, Double)</h4>
+  <div class="markdown level1 summary"><p>Given a bounding box and a dataset, downloads all covered tiles
+using VRT file specified in dataset</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void DownloadMissingFiles(DEMDataSet dataSet, double lat, double lon)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DEM.Net.Lib.DEMDataSet.html">DEMDataSet</a></td>
+        <td><span class="parametername">dataSet</span></td>
+        <td><p>DEMDataSet used</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">lat</span></td>
+        <td><p>Latitude of location</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">lon</span></td>
+        <td><p>Longitude of location</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DEM_Net_Lib_IElevationService_DownloadMissingFiles_DEM_Net_Lib_DEMDataSet_System_Double_System_Double__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>VRT file is downloaded once. It will be cached in local for 30 days.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/xfischer/DEM.Net/new/dev/apiSpec/new?filename=DEM_Net_Lib_IElevationService_ExportElevationTable_System_Collections_Generic_List_DEM_Net_Lib_GeoPoint__.md&amp;value=---%0Auid%3A%20DEM.Net.Lib.IElevationService.ExportElevationTable(System.Collections.Generic.List%7BDEM.Net.Lib.GeoPoint%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/xfischer/DEM.Net/blob/dev/DEM.Net.Lib/Services/Elevation/IElevationService.cs/#L136">View Source</a>
+  </span>
+  <a id="DEM_Net_Lib_IElevationService_ExportElevationTable_" data-uid="DEM.Net.Lib.IElevationService.ExportElevationTable*"></a>
+  <h4 id="DEM_Net_Lib_IElevationService_ExportElevationTable_System_Collections_Generic_List_DEM_Net_Lib_GeoPoint__" data-uid="DEM.Net.Lib.IElevationService.ExportElevationTable(System.Collections.Generic.List{DEM.Net.Lib.GeoPoint})">ExportElevationTable(List&lt;GeoPoint&gt;)</h4>
+  <div class="markdown level1 summary"><p>Generate a tab separated list of points and elevations</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string ExportElevationTable(List&lt;GeoPoint&gt; lineElevationData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="DEM.Net.Lib.GeoPoint.html">GeoPoint</a>&gt;</td>
+        <td><span class="parametername">lineElevationData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/xfischer/DEM.Net/new/dev/apiSpec/new?filename=DEM_Net_Lib_IElevationService_GetCoveringFiles_DEM_Net_Lib_BoundingBox_DEM_Net_Lib_DEMDataSet_System_Collections_Generic_List_DEM_Net_Lib_FileMetadata__.md&amp;value=---%0Auid%3A%20DEM.Net.Lib.IElevationService.GetCoveringFiles(DEM.Net.Lib.BoundingBox%2CDEM.Net.Lib.DEMDataSet%2CSystem.Collections.Generic.List%7BDEM.Net.Lib.FileMetadata%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/xfischer/DEM.Net/blob/dev/DEM.Net.Lib/Services/Elevation/IElevationService.cs/#L125">View Source</a>
+  </span>
+  <a id="DEM_Net_Lib_IElevationService_GetCoveringFiles_" data-uid="DEM.Net.Lib.IElevationService.GetCoveringFiles*"></a>
+  <h4 id="DEM_Net_Lib_IElevationService_GetCoveringFiles_DEM_Net_Lib_BoundingBox_DEM_Net_Lib_DEMDataSet_System_Collections_Generic_List_DEM_Net_Lib_FileMetadata__" data-uid="DEM.Net.Lib.IElevationService.GetCoveringFiles(DEM.Net.Lib.BoundingBox,DEM.Net.Lib.DEMDataSet,System.Collections.Generic.List{DEM.Net.Lib.FileMetadata})">GetCoveringFiles(BoundingBox, DEMDataSet, List&lt;FileMetadata&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">List&lt;FileMetadata&gt; GetCoveringFiles(BoundingBox bbox, DEMDataSet dataSet, List&lt;FileMetadata&gt; subSet = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DEM.Net.Lib.BoundingBox.html">BoundingBox</a></td>
+        <td><span class="parametername">bbox</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DEM.Net.Lib.DEMDataSet.html">DEMDataSet</a></td>
+        <td><span class="parametername">dataSet</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="DEM.Net.Lib.FileMetadata.html">FileMetadata</a>&gt;</td>
+        <td><span class="parametername">subSet</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="DEM.Net.Lib.FileMetadata.html">FileMetadata</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/xfischer/DEM.Net/new/dev/apiSpec/new?filename=DEM_Net_Lib_IElevationService_GetCoveringFiles_System_Double_System_Double_DEM_Net_Lib_DEMDataSet_System_Collections_Generic_List_DEM_Net_Lib_FileMetadata__.md&amp;value=---%0Auid%3A%20DEM.Net.Lib.IElevationService.GetCoveringFiles(System.Double%2CSystem.Double%2CDEM.Net.Lib.DEMDataSet%2CSystem.Collections.Generic.List%7BDEM.Net.Lib.FileMetadata%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/xfischer/DEM.Net/blob/dev/DEM.Net.Lib/Services/Elevation/IElevationService.cs/#L126">View Source</a>
+  </span>
+  <a id="DEM_Net_Lib_IElevationService_GetCoveringFiles_" data-uid="DEM.Net.Lib.IElevationService.GetCoveringFiles*"></a>
+  <h4 id="DEM_Net_Lib_IElevationService_GetCoveringFiles_System_Double_System_Double_DEM_Net_Lib_DEMDataSet_System_Collections_Generic_List_DEM_Net_Lib_FileMetadata__" data-uid="DEM.Net.Lib.IElevationService.GetCoveringFiles(System.Double,System.Double,DEM.Net.Lib.DEMDataSet,System.Collections.Generic.List{DEM.Net.Lib.FileMetadata})">GetCoveringFiles(Double, Double, DEMDataSet, List&lt;FileMetadata&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">List&lt;FileMetadata&gt; GetCoveringFiles(double lat, double lon, DEMDataSet dataSet, List&lt;FileMetadata&gt; subSet = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">lat</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">lon</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DEM.Net.Lib.DEMDataSet.html">DEMDataSet</a></td>
+        <td><span class="parametername">dataSet</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="DEM.Net.Lib.FileMetadata.html">FileMetadata</a>&gt;</td>
+        <td><span class="parametername">subSet</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="DEM.Net.Lib.FileMetadata.html">FileMetadata</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/xfischer/DEM.Net/new/dev/apiSpec/new?filename=DEM_Net_Lib_IElevationService_GetDEMLocalPath_DEM_Net_Lib_DEMDataSet_.md&amp;value=---%0Auid%3A%20DEM.Net.Lib.IElevationService.GetDEMLocalPath(DEM.Net.Lib.DEMDataSet)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/xfischer/DEM.Net/blob/dev/DEM.Net.Lib/Services/Elevation/IElevationService.cs/#L127">View Source</a>
+  </span>
+  <a id="DEM_Net_Lib_IElevationService_GetDEMLocalPath_" data-uid="DEM.Net.Lib.IElevationService.GetDEMLocalPath*"></a>
+  <h4 id="DEM_Net_Lib_IElevationService_GetDEMLocalPath_DEM_Net_Lib_DEMDataSet_" data-uid="DEM.Net.Lib.IElevationService.GetDEMLocalPath(DEM.Net.Lib.DEMDataSet)">GetDEMLocalPath(DEMDataSet)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string GetDEMLocalPath(DEMDataSet dataSet)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DEM.Net.Lib.DEMDataSet.html">DEMDataSet</a></td>
+        <td><span class="parametername">dataSet</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/xfischer/DEM.Net/new/dev/apiSpec/new?filename=DEM_Net_Lib_IElevationService_GetHeightMap_DEM_Net_Lib_BoundingBox_DEM_Net_Lib_DEMDataSet_.md&amp;value=---%0Auid%3A%20DEM.Net.Lib.IElevationService.GetHeightMap(DEM.Net.Lib.BoundingBox%2CDEM.Net.Lib.DEMDataSet)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/xfischer/DEM.Net/blob/dev/DEM.Net.Lib/Services/Elevation/IElevationService.cs/#L100">View Source</a>
+  </span>
+  <a id="DEM_Net_Lib_IElevationService_GetHeightMap_" data-uid="DEM.Net.Lib.IElevationService.GetHeightMap*"></a>
+  <h4 id="DEM_Net_Lib_IElevationService_GetHeightMap_DEM_Net_Lib_BoundingBox_DEM_Net_Lib_DEMDataSet_" data-uid="DEM.Net.Lib.IElevationService.GetHeightMap(DEM.Net.Lib.BoundingBox,DEM.Net.Lib.DEMDataSet)">GetHeightMap(BoundingBox, DEMDataSet)</h4>
+  <div class="markdown level1 summary"><p>Returns all elevations in given bbox</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">HeightMap GetHeightMap(BoundingBox bbox, DEMDataSet dataSet)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DEM.Net.Lib.BoundingBox.html">BoundingBox</a></td>
+        <td><span class="parametername">bbox</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DEM.Net.Lib.DEMDataSet.html">DEMDataSet</a></td>
+        <td><span class="parametername">dataSet</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DEM.Net.Lib.HeightMap.html">HeightMap</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/xfischer/DEM.Net/new/dev/apiSpec/new?filename=DEM_Net_Lib_IElevationService_GetHeightMap_DEM_Net_Lib_BoundingBox_System_String_DEM_Net_Lib_DEMFileFormat_.md&amp;value=---%0Auid%3A%20DEM.Net.Lib.IElevationService.GetHeightMap(DEM.Net.Lib.BoundingBox%2CSystem.String%2CDEM.Net.Lib.DEMFileFormat)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/xfischer/DEM.Net/blob/dev/DEM.Net.Lib/Services/Elevation/IElevationService.cs/#L108">View Source</a>
+  </span>
+  <a id="DEM_Net_Lib_IElevationService_GetHeightMap_" data-uid="DEM.Net.Lib.IElevationService.GetHeightMap*"></a>
+  <h4 id="DEM_Net_Lib_IElevationService_GetHeightMap_DEM_Net_Lib_BoundingBox_System_String_DEM_Net_Lib_DEMFileFormat_" data-uid="DEM.Net.Lib.IElevationService.GetHeightMap(DEM.Net.Lib.BoundingBox,System.String,DEM.Net.Lib.DEMFileFormat)">GetHeightMap(BoundingBox, String, DEMFileFormat)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">HeightMap GetHeightMap(BoundingBox bbox, string rasterFilePath, DEMFileFormat format)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DEM.Net.Lib.BoundingBox.html">BoundingBox</a></td>
+        <td><span class="parametername">bbox</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">rasterFilePath</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DEM.Net.Lib.DEMFileFormat.html">DEMFileFormat</a></td>
+        <td><span class="parametername">format</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DEM.Net.Lib.HeightMap.html">HeightMap</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/xfischer/DEM.Net/new/dev/apiSpec/new?filename=DEM_Net_Lib_IElevationService_GetHeightMap_DEM_Net_Lib_FileMetadata_.md&amp;value=---%0Auid%3A%20DEM.Net.Lib.IElevationService.GetHeightMap(DEM.Net.Lib.FileMetadata)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/xfischer/DEM.Net/blob/dev/DEM.Net.Lib/Services/Elevation/IElevationService.cs/#L107">View Source</a>
+  </span>
+  <a id="DEM_Net_Lib_IElevationService_GetHeightMap_" data-uid="DEM.Net.Lib.IElevationService.GetHeightMap*"></a>
+  <h4 id="DEM_Net_Lib_IElevationService_GetHeightMap_DEM_Net_Lib_FileMetadata_" data-uid="DEM.Net.Lib.IElevationService.GetHeightMap(DEM.Net.Lib.FileMetadata)">GetHeightMap(FileMetadata)</h4>
+  <div class="markdown level1 summary"><p>Get all elevation for a given raster file</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">HeightMap GetHeightMap(FileMetadata metadata)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DEM.Net.Lib.FileMetadata.html">FileMetadata</a></td>
+        <td><span class="parametername">metadata</span></td>
+        <td><p>Raster file metadata. <a class="xref" href="DEM.Net.Lib.IElevationService.html#DEM_Net_Lib_IElevationService_GetCoveringFiles_DEM_Net_Lib_BoundingBox_DEM_Net_Lib_DEMDataSet_System_Collections_Generic_List_DEM_Net_Lib_FileMetadata__">GetCoveringFiles(BoundingBox, DEMDataSet, List&lt;FileMetadata&gt;)</a></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DEM.Net.Lib.HeightMap.html">HeightMap</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/xfischer/DEM.Net/new/dev/apiSpec/new?filename=DEM_Net_Lib_IElevationService_GetLineGeometryElevation_GeoAPI_Geometries_IGeometry_DEM_Net_Lib_DEMDataSet_DEM_Net_Lib_InterpolationMode_.md&amp;value=---%0Auid%3A%20DEM.Net.Lib.IElevationService.GetLineGeometryElevation(GeoAPI.Geometries.IGeometry%2CDEM.Net.Lib.DEMDataSet%2CDEM.Net.Lib.InterpolationMode)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/xfischer/DEM.Net/blob/dev/DEM.Net.Lib/Services/Elevation/IElevationService.cs/#L46">View Source</a>
+  </span>
+  <a id="DEM_Net_Lib_IElevationService_GetLineGeometryElevation_" data-uid="DEM.Net.Lib.IElevationService.GetLineGeometryElevation*"></a>
+  <h4 id="DEM_Net_Lib_IElevationService_GetLineGeometryElevation_GeoAPI_Geometries_IGeometry_DEM_Net_Lib_DEMDataSet_DEM_Net_Lib_InterpolationMode_" data-uid="DEM.Net.Lib.IElevationService.GetLineGeometryElevation(GeoAPI.Geometries.IGeometry,DEM.Net.Lib.DEMDataSet,DEM.Net.Lib.InterpolationMode)">GetLineGeometryElevation(IGeometry, DEMDataSet, InterpolationMode)</h4>
+  <div class="markdown level1 summary"><p>High level method that retrieves all dataset elevations along given line</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">List&lt;GeoPoint&gt; GetLineGeometryElevation(IGeometry lineStringGeometry, DEMDataSet dataSet, InterpolationMode interpolationMode = InterpolationMode.Bilinear)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GeoAPI.Geometries.IGeometry</span></td>
+        <td><span class="parametername">lineStringGeometry</span></td>
+        <td><p>Line geometry</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DEM.Net.Lib.DEMDataSet.html">DEMDataSet</a></td>
+        <td><span class="parametername">dataSet</span></td>
+        <td><p>DEM dataset to use</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DEM.Net.Lib.InterpolationMode.html">InterpolationMode</a></td>
+        <td><span class="parametername">interpolationMode</span></td>
+        <td><p>Interpolation mode</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="DEM.Net.Lib.GeoPoint.html">GeoPoint</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DEM_Net_Lib_IElevationService_GetLineGeometryElevation_GeoAPI_Geometries_IGeometry_DEM_Net_Lib_DEMDataSet_DEM_Net_Lib_InterpolationMode__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Output can be BIG, as all elevations will be returned.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/xfischer/DEM.Net/new/dev/apiSpec/new?filename=DEM_Net_Lib_IElevationService_GetLineGeometryElevation_System_Collections_Generic_IEnumerable_DEM_Net_Lib_GeoPoint__DEM_Net_Lib_DEMDataSet_DEM_Net_Lib_InterpolationMode_.md&amp;value=---%0Auid%3A%20DEM.Net.Lib.IElevationService.GetLineGeometryElevation(System.Collections.Generic.IEnumerable%7BDEM.Net.Lib.GeoPoint%7D%2CDEM.Net.Lib.DEMDataSet%2CDEM.Net.Lib.InterpolationMode)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/xfischer/DEM.Net/blob/dev/DEM.Net.Lib/Services/Elevation/IElevationService.cs/#L37">View Source</a>
+  </span>
+  <a id="DEM_Net_Lib_IElevationService_GetLineGeometryElevation_" data-uid="DEM.Net.Lib.IElevationService.GetLineGeometryElevation*"></a>
+  <h4 id="DEM_Net_Lib_IElevationService_GetLineGeometryElevation_System_Collections_Generic_IEnumerable_DEM_Net_Lib_GeoPoint__DEM_Net_Lib_DEMDataSet_DEM_Net_Lib_InterpolationMode_" data-uid="DEM.Net.Lib.IElevationService.GetLineGeometryElevation(System.Collections.Generic.IEnumerable{DEM.Net.Lib.GeoPoint},DEM.Net.Lib.DEMDataSet,DEM.Net.Lib.InterpolationMode)">GetLineGeometryElevation(IEnumerable&lt;GeoPoint&gt;, DEMDataSet, InterpolationMode)</h4>
+  <div class="markdown level1 summary"><p>High level method that retrieves all dataset elevations along given line</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">List&lt;GeoPoint&gt; GetLineGeometryElevation(IEnumerable&lt;GeoPoint&gt; lineGeoPoints, DEMDataSet dataSet, InterpolationMode interpolationMode = InterpolationMode.Bilinear)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="DEM.Net.Lib.GeoPoint.html">GeoPoint</a>&gt;</td>
+        <td><span class="parametername">lineGeoPoints</span></td>
+        <td><p>List of points that, when joined, makes the input line</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DEM.Net.Lib.DEMDataSet.html">DEMDataSet</a></td>
+        <td><span class="parametername">dataSet</span></td>
+        <td><p>DEM dataset to use</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DEM.Net.Lib.InterpolationMode.html">InterpolationMode</a></td>
+        <td><span class="parametername">interpolationMode</span></td>
+        <td><p>Interpolation mode</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="DEM.Net.Lib.GeoPoint.html">GeoPoint</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DEM_Net_Lib_IElevationService_GetLineGeometryElevation_System_Collections_Generic_IEnumerable_DEM_Net_Lib_GeoPoint__DEM_Net_Lib_DEMDataSet_DEM_Net_Lib_InterpolationMode__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Output can be BIG, as all elevations will be returned.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/xfischer/DEM.Net/new/dev/apiSpec/new?filename=DEM_Net_Lib_IElevationService_GetLineGeometryElevation_System_String_DEM_Net_Lib_DEMDataSet_DEM_Net_Lib_InterpolationMode_.md&amp;value=---%0Auid%3A%20DEM.Net.Lib.IElevationService.GetLineGeometryElevation(System.String%2CDEM.Net.Lib.DEMDataSet%2CDEM.Net.Lib.InterpolationMode)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/xfischer/DEM.Net/blob/dev/DEM.Net.Lib/Services/Elevation/IElevationService.cs/#L55">View Source</a>
+  </span>
+  <a id="DEM_Net_Lib_IElevationService_GetLineGeometryElevation_" data-uid="DEM.Net.Lib.IElevationService.GetLineGeometryElevation*"></a>
+  <h4 id="DEM_Net_Lib_IElevationService_GetLineGeometryElevation_System_String_DEM_Net_Lib_DEMDataSet_DEM_Net_Lib_InterpolationMode_" data-uid="DEM.Net.Lib.IElevationService.GetLineGeometryElevation(System.String,DEM.Net.Lib.DEMDataSet,DEM.Net.Lib.InterpolationMode)">GetLineGeometryElevation(String, DEMDataSet, InterpolationMode)</h4>
+  <div class="markdown level1 summary"><p>High level method that retrieves all dataset elevations along given line</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">List&lt;GeoPoint&gt; GetLineGeometryElevation(string lineWKT, DEMDataSet dataSet, InterpolationMode interpolationMode = InterpolationMode.Bilinear)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">lineWKT</span></td>
+        <td><p>Line geometry in WKT</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DEM.Net.Lib.DEMDataSet.html">DEMDataSet</a></td>
+        <td><span class="parametername">dataSet</span></td>
+        <td><p>DEM dataset to use</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DEM.Net.Lib.InterpolationMode.html">InterpolationMode</a></td>
+        <td><span class="parametername">interpolationMode</span></td>
+        <td><p>Interpolation mode</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="DEM.Net.Lib.GeoPoint.html">GeoPoint</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DEM_Net_Lib_IElevationService_GetLineGeometryElevation_System_String_DEM_Net_Lib_DEMDataSet_DEM_Net_Lib_InterpolationMode__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Output can be BIG, as all elevations will be returned.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/xfischer/DEM.Net/new/dev/apiSpec/new?filename=DEM_Net_Lib_IElevationService_GetPointElevation_DEM_Net_Lib_FileMetadata_System_Double_System_Double_DEM_Net_Lib_IInterpolator_.md&amp;value=---%0Auid%3A%20DEM.Net.Lib.IElevationService.GetPointElevation(DEM.Net.Lib.FileMetadata%2CSystem.Double%2CSystem.Double%2CDEM.Net.Lib.IInterpolator)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/xfischer/DEM.Net/blob/dev/DEM.Net.Lib/Services/Elevation/IElevationService.cs/#L73">View Source</a>
+  </span>
+  <a id="DEM_Net_Lib_IElevationService_GetPointElevation_" data-uid="DEM.Net.Lib.IElevationService.GetPointElevation*"></a>
+  <h4 id="DEM_Net_Lib_IElevationService_GetPointElevation_DEM_Net_Lib_FileMetadata_System_Double_System_Double_DEM_Net_Lib_IInterpolator_" data-uid="DEM.Net.Lib.IElevationService.GetPointElevation(DEM.Net.Lib.FileMetadata,System.Double,System.Double,DEM.Net.Lib.IInterpolator)">GetPointElevation(FileMetadata, Double, Double, IInterpolator)</h4>
+  <div class="markdown level1 summary"><p>Get elevation for any raster at specified point (in raster coordinate system)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">float GetPointElevation(FileMetadata metadata, double lat, double lon, IInterpolator interpolator = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DEM.Net.Lib.FileMetadata.html">FileMetadata</a></td>
+        <td><span class="parametername">metadata</span></td>
+        <td><p>File metadata, <a class="xref" href="DEM.Net.Lib.IRasterFile.html#DEM_Net_Lib_IRasterFile_ParseMetaData">ParseMetaData()</a> and <a class="xref" href="DEM.Net.Lib.IRasterService.html#DEM_Net_Lib_IRasterService_OpenFile_System_String_DEM_Net_Lib_DEMFileFormat_">OpenFile(String, DEMFileFormat)</a></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">lat</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">lon</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DEM.Net.Lib.IInterpolator.html">IInterpolator</a></td>
+        <td><span class="parametername">interpolator</span></td>
+        <td><p>If null, then Bilinear interpolation will be used</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/xfischer/DEM.Net/new/dev/apiSpec/new?filename=DEM_Net_Lib_IElevationService_GetPointElevation_DEM_Net_Lib_IRasterFile_DEM_Net_Lib_FileMetadata_System_Double_System_Double_DEM_Net_Lib_IInterpolator_.md&amp;value=---%0Auid%3A%20DEM.Net.Lib.IElevationService.GetPointElevation(DEM.Net.Lib.IRasterFile%2CDEM.Net.Lib.FileMetadata%2CSystem.Double%2CSystem.Double%2CDEM.Net.Lib.IInterpolator)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/xfischer/DEM.Net/blob/dev/DEM.Net.Lib/Services/Elevation/IElevationService.cs/#L83">View Source</a>
+  </span>
+  <a id="DEM_Net_Lib_IElevationService_GetPointElevation_" data-uid="DEM.Net.Lib.IElevationService.GetPointElevation*"></a>
+  <h4 id="DEM_Net_Lib_IElevationService_GetPointElevation_DEM_Net_Lib_IRasterFile_DEM_Net_Lib_FileMetadata_System_Double_System_Double_DEM_Net_Lib_IInterpolator_" data-uid="DEM.Net.Lib.IElevationService.GetPointElevation(DEM.Net.Lib.IRasterFile,DEM.Net.Lib.FileMetadata,System.Double,System.Double,DEM.Net.Lib.IInterpolator)">GetPointElevation(IRasterFile, FileMetadata, Double, Double, IInterpolator)</h4>
+  <div class="markdown level1 summary"><p>Get elevation for any raster at specified point (in raster coordinate system)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">float GetPointElevation(IRasterFile raster, FileMetadata metadata, double lat, double lon, IInterpolator interpolator = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DEM.Net.Lib.IRasterFile.html">IRasterFile</a></td>
+        <td><span class="parametername">raster</span></td>
+        <td><p>Raster file, <a class="xref" href="DEM.Net.Lib.IRasterService.html#DEM_Net_Lib_IRasterService_OpenFile_System_String_DEM_Net_Lib_DEMFileFormat_">OpenFile(String, DEMFileFormat)</a></p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DEM.Net.Lib.FileMetadata.html">FileMetadata</a></td>
+        <td><span class="parametername">metadata</span></td>
+        <td><p>File metadata, <a class="xref" href="DEM.Net.Lib.IRasterFile.html#DEM_Net_Lib_IRasterFile_ParseMetaData">ParseMetaData()</a></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">lat</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">lon</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DEM.Net.Lib.IInterpolator.html">IInterpolator</a></td>
+        <td><span class="parametername">interpolator</span></td>
+        <td><p>If null, then Bilinear interpolation will be used</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/xfischer/DEM.Net/new/dev/apiSpec/new?filename=DEM_Net_Lib_IElevationService_GetPointElevation_System_Double_System_Double_DEM_Net_Lib_DEMDataSet_DEM_Net_Lib_InterpolationMode_.md&amp;value=---%0Auid%3A%20DEM.Net.Lib.IElevationService.GetPointElevation(System.Double%2CSystem.Double%2CDEM.Net.Lib.DEMDataSet%2CDEM.Net.Lib.InterpolationMode)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/xfischer/DEM.Net/blob/dev/DEM.Net.Lib/Services/Elevation/IElevationService.cs/#L64">View Source</a>
+  </span>
+  <a id="DEM_Net_Lib_IElevationService_GetPointElevation_" data-uid="DEM.Net.Lib.IElevationService.GetPointElevation*"></a>
+  <h4 id="DEM_Net_Lib_IElevationService_GetPointElevation_System_Double_System_Double_DEM_Net_Lib_DEMDataSet_DEM_Net_Lib_InterpolationMode_" data-uid="DEM.Net.Lib.IElevationService.GetPointElevation(System.Double,System.Double,DEM.Net.Lib.DEMDataSet,DEM.Net.Lib.InterpolationMode)">GetPointElevation(Double, Double, DEMDataSet, InterpolationMode)</h4>
+  <div class="markdown level1 summary"><p>High level method that retrieves elevation for given point</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">GeoPoint GetPointElevation(double lat, double lon, DEMDataSet dataSet, InterpolationMode interpolationMode = InterpolationMode.Bilinear)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">lat</span></td>
+        <td><p>Point latitude</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">lon</span></td>
+        <td><p>Point longitude</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DEM.Net.Lib.DEMDataSet.html">DEMDataSet</a></td>
+        <td><span class="parametername">dataSet</span></td>
+        <td><p>DEM dataset to use</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DEM.Net.Lib.InterpolationMode.html">InterpolationMode</a></td>
+        <td><span class="parametername">interpolationMode</span></td>
+        <td><p>Interpolation mode</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DEM.Net.Lib.GeoPoint.html">GeoPoint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/xfischer/DEM.Net/new/dev/apiSpec/new?filename=DEM_Net_Lib_IElevationService_GetPointsElevation_DEM_Net_Lib_IRasterFile_DEM_Net_Lib_FileMetadata_System_Collections_Generic_IEnumerable_DEM_Net_Lib_GeoPoint__DEM_Net_Lib_IInterpolator_.md&amp;value=---%0Auid%3A%20DEM.Net.Lib.IElevationService.GetPointsElevation(DEM.Net.Lib.IRasterFile%2CDEM.Net.Lib.FileMetadata%2CSystem.Collections.Generic.IEnumerable%7BDEM.Net.Lib.GeoPoint%7D%2CDEM.Net.Lib.IInterpolator)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/xfischer/DEM.Net/blob/dev/DEM.Net.Lib/Services/Elevation/IElevationService.cs/#L92">View Source</a>
+  </span>
+  <a id="DEM_Net_Lib_IElevationService_GetPointsElevation_" data-uid="DEM.Net.Lib.IElevationService.GetPointsElevation*"></a>
+  <h4 id="DEM_Net_Lib_IElevationService_GetPointsElevation_DEM_Net_Lib_IRasterFile_DEM_Net_Lib_FileMetadata_System_Collections_Generic_IEnumerable_DEM_Net_Lib_GeoPoint__DEM_Net_Lib_IInterpolator_" data-uid="DEM.Net.Lib.IElevationService.GetPointsElevation(DEM.Net.Lib.IRasterFile,DEM.Net.Lib.FileMetadata,System.Collections.Generic.IEnumerable{DEM.Net.Lib.GeoPoint},DEM.Net.Lib.IInterpolator)">GetPointsElevation(IRasterFile, FileMetadata, IEnumerable&lt;GeoPoint&gt;, IInterpolator)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">float GetPointsElevation(IRasterFile raster, FileMetadata metadata, IEnumerable&lt;GeoPoint&gt; points, IInterpolator interpolator = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DEM.Net.Lib.IRasterFile.html">IRasterFile</a></td>
+        <td><span class="parametername">raster</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DEM.Net.Lib.FileMetadata.html">FileMetadata</a></td>
+        <td><span class="parametername">metadata</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="DEM.Net.Lib.GeoPoint.html">GeoPoint</a>&gt;</td>
+        <td><span class="parametername">points</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DEM.Net.Lib.IInterpolator.html">IInterpolator</a></td>
+        <td><span class="parametername">interpolator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/xfischer/DEM.Net/new/dev/apiSpec/new?filename=DEM_Net_Lib_IElevationService_GetPointsElevation_System_Collections_Generic_IEnumerable_DEM_Net_Lib_GeoPoint__DEM_Net_Lib_DEMDataSet_DEM_Net_Lib_InterpolationMode_.md&amp;value=---%0Auid%3A%20DEM.Net.Lib.IElevationService.GetPointsElevation(System.Collections.Generic.IEnumerable%7BDEM.Net.Lib.GeoPoint%7D%2CDEM.Net.Lib.DEMDataSet%2CDEM.Net.Lib.InterpolationMode)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/xfischer/DEM.Net/blob/dev/DEM.Net.Lib/Services/Elevation/IElevationService.cs/#L91">View Source</a>
+  </span>
+  <a id="DEM_Net_Lib_IElevationService_GetPointsElevation_" data-uid="DEM.Net.Lib.IElevationService.GetPointsElevation*"></a>
+  <h4 id="DEM_Net_Lib_IElevationService_GetPointsElevation_System_Collections_Generic_IEnumerable_DEM_Net_Lib_GeoPoint__DEM_Net_Lib_DEMDataSet_DEM_Net_Lib_InterpolationMode_" data-uid="DEM.Net.Lib.IElevationService.GetPointsElevation(System.Collections.Generic.IEnumerable{DEM.Net.Lib.GeoPoint},DEM.Net.Lib.DEMDataSet,DEM.Net.Lib.InterpolationMode)">GetPointsElevation(IEnumerable&lt;GeoPoint&gt;, DEMDataSet, InterpolationMode)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;GeoPoint&gt; GetPointsElevation(IEnumerable&lt;GeoPoint&gt; points, DEMDataSet dataSet, InterpolationMode interpolationMode = InterpolationMode.Bilinear)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="DEM.Net.Lib.GeoPoint.html">GeoPoint</a>&gt;</td>
+        <td><span class="parametername">points</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DEM.Net.Lib.DEMDataSet.html">DEMDataSet</a></td>
+        <td><span class="parametername">dataSet</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DEM.Net.Lib.InterpolationMode.html">InterpolationMode</a></td>
+        <td><span class="parametername">interpolationMode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="DEM.Net.Lib.GeoPoint.html">GeoPoint</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/xfischer/DEM.Net/new/dev/apiSpec/new?filename=DEM_Net_Lib_IElevationService_GetTilesBoundingBox_System_Collections_Generic_List_DEM_Net_Lib_FileMetadata__.md&amp;value=---%0Auid%3A%20DEM.Net.Lib.IElevationService.GetTilesBoundingBox(System.Collections.Generic.List%7BDEM.Net.Lib.FileMetadata%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/xfischer/DEM.Net/blob/dev/DEM.Net.Lib/Services/Elevation/IElevationService.cs/#L115">View Source</a>
+  </span>
+  <a id="DEM_Net_Lib_IElevationService_GetTilesBoundingBox_" data-uid="DEM.Net.Lib.IElevationService.GetTilesBoundingBox*"></a>
+  <h4 id="DEM_Net_Lib_IElevationService_GetTilesBoundingBox_System_Collections_Generic_List_DEM_Net_Lib_FileMetadata__" data-uid="DEM.Net.Lib.IElevationService.GetTilesBoundingBox(System.Collections.Generic.List{DEM.Net.Lib.FileMetadata})">GetTilesBoundingBox(List&lt;FileMetadata&gt;)</h4>
+  <div class="markdown level1 summary"><p>Retrieves bounding box for the uning of all raster file list</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">BoundingBox GetTilesBoundingBox(List&lt;FileMetadata&gt; tiles)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="DEM.Net.Lib.FileMetadata.html">FileMetadata</a>&gt;</td>
+        <td><span class="parametername">tiles</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DEM.Net.Lib.BoundingBox.html">BoundingBox</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/xfischer/DEM.Net/new/dev/apiSpec/new?filename=DEM_Net_Lib_IElevationService_IsBboxIntersectingTile_DEM_Net_Lib_FileMetadata_DEM_Net_Lib_BoundingBox_.md&amp;value=---%0Auid%3A%20DEM.Net.Lib.IElevationService.IsBboxIntersectingTile(DEM.Net.Lib.FileMetadata%2CDEM.Net.Lib.BoundingBox)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/xfischer/DEM.Net/blob/dev/DEM.Net.Lib/Services/Elevation/IElevationService.cs/#L123">View Source</a>
+  </span>
+  <a id="DEM_Net_Lib_IElevationService_IsBboxIntersectingTile_" data-uid="DEM.Net.Lib.IElevationService.IsBboxIntersectingTile*"></a>
+  <h4 id="DEM_Net_Lib_IElevationService_IsBboxIntersectingTile_DEM_Net_Lib_FileMetadata_DEM_Net_Lib_BoundingBox_" data-uid="DEM.Net.Lib.IElevationService.IsBboxIntersectingTile(DEM.Net.Lib.FileMetadata,DEM.Net.Lib.BoundingBox)">IsBboxIntersectingTile(FileMetadata, BoundingBox)</h4>
+  <div class="markdown level1 summary"><p>Performs point / bbox intersection</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsBboxIntersectingTile(FileMetadata tileMetadata, BoundingBox bbox)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DEM.Net.Lib.FileMetadata.html">FileMetadata</a></td>
+        <td><span class="parametername">tileMetadata</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DEM.Net.Lib.BoundingBox.html">BoundingBox</a></td>
+        <td><span class="parametername">bbox</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/xfischer/DEM.Net/new/dev/apiSpec/new?filename=DEM_Net_Lib_IElevationService_IsPointInTile_DEM_Net_Lib_FileMetadata_DEM_Net_Lib_GeoPoint_.md&amp;value=---%0Auid%3A%20DEM.Net.Lib.IElevationService.IsPointInTile(DEM.Net.Lib.FileMetadata%2CDEM.Net.Lib.GeoPoint)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/xfischer/DEM.Net/blob/dev/DEM.Net.Lib/Services/Elevation/IElevationService.cs/#L124">View Source</a>
+  </span>
+  <a id="DEM_Net_Lib_IElevationService_IsPointInTile_" data-uid="DEM.Net.Lib.IElevationService.IsPointInTile*"></a>
+  <h4 id="DEM_Net_Lib_IElevationService_IsPointInTile_DEM_Net_Lib_FileMetadata_DEM_Net_Lib_GeoPoint_" data-uid="DEM.Net.Lib.IElevationService.IsPointInTile(DEM.Net.Lib.FileMetadata,DEM.Net.Lib.GeoPoint)">IsPointInTile(FileMetadata, GeoPoint)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsPointInTile(FileMetadata tileMetadata, GeoPoint point)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DEM.Net.Lib.FileMetadata.html">FileMetadata</a></td>
+        <td><span class="parametername">tileMetadata</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DEM.Net.Lib.GeoPoint.html">GeoPoint</a></td>
+        <td><span class="parametername">point</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/xfischer/DEM.Net/new/dev/apiSpec/new?filename=DEM_Net_Lib_IElevationService.md&amp;value=---%0Auid%3A%20DEM.Net.Lib.IElevationService%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/xfischer/DEM.Net/blob/dev/DEM.Net.Lib/Services/Elevation/IElevationService.cs/#L6" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
