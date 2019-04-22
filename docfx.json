@@ -12,8 +12,7 @@
       ],
       "dest": "api",
       "filter": "filterConfig.yml",
-      "disableGitFeatures": false,
-      "disableDefaultFilter": false
+      "properties" :  {"TargetFramework":  "dotnetstandard2.0"}
     }
   ],
   "build": {
@@ -59,9 +58,6 @@
     ],
     "postProcessors": [],
     "markdownEngineName": "markdig",
-    "noLangKeyword": false,
-    "keepFileLink": false,
-    "cleanupCacheHistory": false,
-    "disableGitFeatures": false
+    "noLangKeyword": false
   }
 }
